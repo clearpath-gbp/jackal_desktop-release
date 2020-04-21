@@ -1,0 +1,12 @@
+Source: ros-melodic-jackal-desktop
+Section: misc
+Priority: optional
+Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://wiki.ros.org/jackal_desktop
+Standards-Version: 3.9.2
+
+Package: ros-melodic-jackal-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-jackal-msgs, ros-melodic-jackal-viz (>= 0.3.1)
+Description: Packages for working with Jackal from a ROS desktop.
