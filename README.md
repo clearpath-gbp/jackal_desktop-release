@@ -1,3 +1,28 @@
+## jackal_desktop (noetic) - 0.4.0-1
+
+The packages in the `jackal_desktop` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --new-track --no-pull-request -t noetic -r noetic jackal_desktop` on `Fri, 23 Apr 2021 18:41:39 -0000`
+
+These packages were released:
+- `jackal_desktop`
+- `jackal_viz`
+
+Version of package(s) in repository `jackal_desktop`:
+
+- upstream repository: https://github.com/jackal/jackal_desktop.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.4.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.1`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## jackal_desktop (melodic) - 0.4.0-1
 
 The packages in the `jackal_desktop` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -r melodic -t melodic jackal_desktop --edit-track` on `Tue, 21 Apr 2020 14:43:41 -0000`
