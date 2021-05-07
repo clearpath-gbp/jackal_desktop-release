@@ -1,0 +1,54 @@
+ros-noetic-jackal-viz (0.4.0-2focal) focal; urgency=high
+
+  * [jackal_viz] Removed joint_state_publisher since joint_state_publisher_gui is generating the same data.
+  * Fix a deprecation warning with the joint state publisher gui
+  * Contributors: Chris Iverach-Brereton, Tony Baltovski
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Tue, 21 Apr 2020 04:00:00 -0000
+
+ros-noetic-jackal-viz (0.3.2-2focal) focal; urgency=high
+
+  * Changed laser scan topics to /front/scan.
+  * Contributors: Tony Baltovski
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Mon, 06 Jun 2016 04:00:00 -0000
+
+ros-noetic-jackal-viz (0.3.1-2focal) focal; urgency=high
+
+  * Add version number blocks.
+  * Switch view_model to use optenv-style URDF parameterization.
+  * Contributors: Mike Purvis
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Tue, 20 Jan 2015 05:00:00 -0000
+
+ros-noetic-jackal-viz (0.3.0-2focal) focal; urgency=high
+
+  * Add camera argument to view model
+  * Add rviz configuration for navigation demo.
+  * Contributors: Shokoofeh Pourmehr, spourmehr
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Fri, 12 Dec 2014 05:00:00 -0000
+
+ros-noetic-jackal-viz (0.2.0-2focal) focal; urgency=high
+
+  * Support front_laser arg in view_model.launch.
+  * Add view_robot launcher for marker teleop.
+  * Contributors: Mike Purvis
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Wed, 10 Sep 2014 04:00:00 -0000
+
+ros-noetic-jackal-viz (0.1.1-2focal) focal; urgency=high
+
+  * Fix install target for jackal_viz.
+  * Contributors: Mike Purvis
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Sat, 06 Sep 2014 04:00:00 -0000
+
+ros-noetic-jackal-viz (0.1.0-2focal) focal; urgency=high
+
+  * Initial release.
+  * Contributors: Mike Purvis
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Fri, 05 Sep 2014 04:00:00 -0000
+
+
