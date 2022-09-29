@@ -1,3 +1,28 @@
+## jackal_desktop (foxy) - 1.0.1-1
+
+The packages in the `jackal_desktop` repository were released into the `foxy` distro by running `/usr/bin/bloom-release -r foxy -t foxy jackal_desktop` on `Thu, 29 Sep 2022 21:36:18 -0000`
+
+These packages were released:
+- `jackal_desktop`
+- `jackal_viz`
+
+Version of package(s) in repository `jackal_desktop`:
+
+- upstream repository: https://github.com/jackal/jackal_desktop.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.1`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## jackal_desktop (melodic) - 0.4.1-1
 
 The packages in the `jackal_desktop` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -r melodic -t melodic jackal_desktop` on `Sun, 16 Jan 2022 20:11:30 -0000`
