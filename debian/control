@@ -1,0 +1,12 @@
+Source: ros-foxy-jackal-viz
+Section: misc
+Priority: optional
+Maintainer: Tony Baltovski <tbaltovski@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake, ros-foxy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-jackal-viz
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-jackal-description, ros-foxy-joint-state-publisher, ros-foxy-joint-state-publisher-gui, ros-foxy-rqt-console, ros-foxy-rqt-gui, ros-foxy-rqt-robot-monitor, ros-foxy-rviz2, ros-foxy-ros-workspace
+Description: Visualization launchers and helpers for Jackal.
