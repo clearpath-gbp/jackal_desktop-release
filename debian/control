@@ -1,0 +1,12 @@
+Source: ros-foxy-jackal-desktop
+Section: misc
+Priority: optional
+Maintainer: Tony Baltovski <tbaltovski@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake, ros-foxy-ros-workspace
+Homepage: http://wiki.ros.org/jackal_desktop
+Standards-Version: 3.9.2
+
+Package: ros-foxy-jackal-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-jackal-msgs, ros-foxy-jackal-viz, ros-foxy-ros-workspace
+Description: Packages for working with Jackal from a ROS desktop.
