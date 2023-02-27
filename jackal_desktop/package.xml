@@ -1,23 +1,18 @@
 <?xml version="1.0"?>
-<package format="2">
+<package>
   <name>jackal_desktop</name>
-  <version>1.0.1</version>
+  <version>0.4.1</version>
   <description>Packages for working with Jackal from a ROS desktop.</description>
 
-  <author email="mpurvis@clearpathrobotics.com">Mike Purvis</author>
-
-  <maintainer email="tbaltovski@clearpathrobotics.com">Tony Baltovski</maintainer>
-  <maintainer email="rkreinin@clearpathrobotics.com">Roni Kreinin</maintainer>
+  <maintainer email="mpurvis@clearpathrobotics.com">Mike Purvis</maintainer>
 
   <license>BSD</license>
 
   <url type="website">http://wiki.ros.org/jackal_desktop</url>
 
-  <buildtool_depend>ament_cmake</buildtool_depend>
-  <exec_depend>jackal_msgs</exec_depend>
-  <exec_depend>jackal_viz</exec_depend>
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>jackal_msgs</run_depend>
+  <run_depend version_gte="0.3.1">jackal_viz</run_depend>
 
-  <export>
-    <build_type>ament_cmake</build_type>
-  </export>
+  <export><metapackage/></export>
 </package>
